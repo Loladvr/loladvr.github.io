@@ -1,39 +1,79 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&display=swap');
-
-body {
-  font-family: 'Lora', serif;
-  background-color: #fffdf3;
-  color: #3b2f2f;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-  color: #2e2019;
-}
-
-.container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 2rem;
-  background-color: #fffefc;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-.button {
-  background-color: #d5bfa3;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #c4ac8f;
-}
+/* Palette de couleurs */
+:root {
+    --rose-pale: #E9D8BE;
+    --bleu-ciel: #87CEEB;
+    --jaune-pale: #F7DC6F;
+    --blanc: #FFFFFF;
+  }
+  
+  /* Reset navigateur de base */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corps du site */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--blanc);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation */
+  header {
+    background-color: var(--bleu-ciel);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Main (contenu principal) */
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: var(--bleu-ciel);
+    margin-bottom: 10px;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: var(--rose-pale);
+    border-radius: 8px;
+  }
+  
+  /* Instagram QR Code */
+  .instagram img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--jaune-pale);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
