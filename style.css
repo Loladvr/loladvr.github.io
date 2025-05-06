@@ -61,6 +61,11 @@
     margin: 10px auto;
     width: 150px;
   }
+
+  instagram {
+    text-align: center ;
+    font-size: 24px;
+    margin-bottom: 10px;
   
   footer {
     background-color: var(--jaune-pale);
