@@ -113,3 +113,9 @@
   margin: 10px;
   z-index: 1000;
 }
+
+.instagram-handle {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
