@@ -1,108 +1,106 @@
-
 :root {
-    --rose-pale: #E9D8BE;
-    --bleu-ciel: #87CEEB;
-    --jaune-pale: #F7DC6F;
-    --blanc: #FFFFFF;
-  }
+  --rose-pale: #E9D8BE;
+  --bleu-ciel: #87CEEB;
+  --jaune-pale: #F7DC6F;
+  --blanc: #FFFFFF;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: var(--blanc);
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: var(--bleu-ciel);
-    padding: 27px 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  h1, h2 {
-    color: var(--bleu-ciel);
-    margin-bottom: 10px;
-  }
-  
-  section {
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: var(--rose-pale);
-    border-radius: 8px;
-  }
-  
-  .instagram img {
-    display: block;
-    margin: 10px auto;
-    width: 150px;
-  }
-  
-  footer {
-    background-color: var(--jaune-pale);
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-    font-size: 0.9em;
-  }
-  
-  .carousel {
-    position: relative;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 12px;
-    background-color: var(--rose-pale);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--blanc);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--bleu-ciel);
+  padding: 27px 0;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: var(--bleu-ciel);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: var(--rose-pale);
+  border-radius: 8px;
+}
+
+.instagram img {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+}
+
+footer {
+  background-color: var(--jaune-pale);
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.carousel {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--rose-pale);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
 .carousel-track img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: contain;
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .carousel-track img {
-        max-height: 200px;
-    }
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  display: none;
 }
 
 .salle {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .logo-site {
@@ -118,4 +116,41 @@
   text-align: center;
   font-size: 1.2em;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.4em;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  .carousel-track img {
+    max-height: 200px;
+  }
+
+  .logo-site {
+    height: 50px;
+    margin: 5px;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 10px;
+  }
 }
