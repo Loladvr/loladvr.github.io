@@ -107,7 +107,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 80px;
   margin: 5px;
   z-index: 1000;
 }
