@@ -107,12 +107,10 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 10px;
-  z-index: 1000;
-}
-.logo-site img{
   height:5.55vw;
   width:auto;
+  margin: 10px;
+  z-index: 1000;
 }
 .instagram-handle {
   text-align: center;
