@@ -62,8 +62,8 @@ section {
 
 .instagram img {
   display: block;
-  margin: 10px auto;
-  width: 150px;
+  margin: 8px auto;
+  width: 170px;
 }
 
 footer {
@@ -107,7 +107,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  height: 80px;
+  height: 70px;
   margin: 3px;
   z-index: 1000;
 }
@@ -145,7 +145,7 @@ footer {
   }
 
   .logo-site {
-    height: 40px;
+    height: 70px;
     margin: 3px;
   }
 
