@@ -107,7 +107,8 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 10000px;
+  width:auto;
   margin: 10px;
   z-index: 1000;
 }
