@@ -107,9 +107,9 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  height: 5vw;
+  height: 7vw;
   width: auto;
-  margin: 8px;
+  margin: 5px;
   z-index: 1000;
 }
 .instagram-handle {
